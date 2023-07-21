@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "vnSfVlfr5J570s+96uS5JODk/+Ah2f4fTJRndW/UYp0PwM+mfpm0n9cGUhd2JDE7Jh/0muVp0hmG8BHpvVuXrg==",
+  "success": true,
+  "projectFilePath": "/Users/maria/-projects/BookAPI/BookAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/maria/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/maria/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/maria/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/maria/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/maria/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/maria/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
