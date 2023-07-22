@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/maria/-projects/BookAPI/BookAPI.csproj": {}
+    "/Users/maria/-projects/BookAPI/BookAPI-.net5/BookAPI.csproj": {}
   },
   "projects": {
-    "/Users/maria/-projects/BookAPI/BookAPI.csproj": {
+    "/Users/maria/-projects/BookAPI/BookAPI-.net5/BookAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/maria/-projects/BookAPI/BookAPI.csproj",
+        "projectUniqueName": "/Users/maria/-projects/BookAPI/BookAPI-.net5/BookAPI.csproj",
         "projectName": "BookAPI",
-        "projectPath": "/Users/maria/-projects/BookAPI/BookAPI.csproj",
+        "projectPath": "/Users/maria/-projects/BookAPI/BookAPI-.net5/BookAPI.csproj",
         "packagesPath": "/Users/maria/.nuget/packages/",
-        "outputPath": "/Users/maria/-projects/BookAPI/obj/",
+        "outputPath": "/Users/maria/-projects/BookAPI/BookAPI-.net5/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/maria/.nuget/NuGet/NuGet.Config"
@@ -40,6 +40,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
