@@ -1,23 +1,16 @@
 ﻿<Properties StartupConfiguration="{33444BB5-8D41-4D68-896E-7FED0B89B7FA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
     <Files>
-      <File FileName="Startup.cs" Line="6" Column="29" />
-      <File FileName="Data/Models/EmptyClass.cs" Line="14" Column="42" />
-      <File FileName="Data/AppDbContext.cs" Line="15" Column="41" />
+      <File FileName="Startup.cs" Line="60" Column="36" />
+      <File FileName="Data/AppDbContext.cs" />
       <File FileName="appsettings.json" Line="11" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BookAPI">
-            <Node name="BookAPI">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="Data" expanded="True">
-                <Node name="Models" expanded="True" />
-              </Node>
-              <Node name="appsettings.json" expanded="True" />
+            <Node name="BookAPI" expanded="True">
+              <Node name="appsettings.json" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
@@ -27,6 +20,8 @@
   <MonoDevelop.Ide.ItemProperties.BookAPI PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
