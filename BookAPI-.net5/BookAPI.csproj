@@ -17,9 +17,15 @@
   <ItemGroup>
     <None Remove="Data\" />
     <None Remove="Data\Models\" />
+    <None Remove="Controllers\" />
+    <None Remove="Data\Services\" />
+    <None Remove="Data\Models\ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Data\Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\Services\" />
+    <Folder Include="Data\Models\ViewModels\" />
   </ItemGroup>
 </Project>

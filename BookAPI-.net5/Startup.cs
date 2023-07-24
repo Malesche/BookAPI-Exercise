@@ -14,6 +14,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BookAPI.Data.Services;
 
 namespace BookAPI
 {
@@ -36,6 +37,9 @@ namespace BookAPI
 
             // Configure DBContext with SQL
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
+
+            // Configure the Services
+            services.AddTransient<BooksService>();
 
             services.AddSwaggerGen(c =>
             {
