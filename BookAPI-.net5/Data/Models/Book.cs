@@ -18,6 +18,10 @@ namespace BookAPI.Data.Models
         public string CoverUrl { get; set; }
 		public DateTime DateAdded { get; set; }
 
-    }
+		// Navigation Properties
+		public int PublisherId { get; set; }
+		public Publisher Publisher { get; set; }
+
+	}
 }
 
