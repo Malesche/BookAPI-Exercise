@@ -1,24 +1,25 @@
 ﻿<Properties StartupConfiguration="{33444BB5-8D41-4D68-896E-7FED0B89B7FA}|Default">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/AppDbInitializer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/AppDbContext.cs">
     <Files>
-      <File FileName="Startup.cs" />
-      <File FileName="Controllers/BooksController.cs" Line="32" Column="47" />
-      <File FileName="Data/Services/BooksService.cs" Line="41" Column="93" />
-      <File FileName="Data/Models/Book.cs" />
-      <File FileName="Data/Models/ViewModels/BookVM.cs" />
-      <File FileName="Data/AppDbInitializer.cs" Line="22" Column="1" />
+      <File FileName="Data/Models/Book.cs" Line="25" Column="1" />
+      <File FileName="Data/Models/Publisher.cs" Line="14" Column="18" />
+      <File FileName="Data/Models/Author.cs" Line="11" Column="1" />
+      <File FileName="Data/Models/Book_Author.cs" Line="8" Column="3" />
+      <File FileName="Data/AppDbContext.cs" Line="31" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BookAPI">
             <Node name="BookAPI">
-              <Node name="Data">
-                <Node name="AppDbInitializer.cs" selected="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Models" expanded="True" />
+                <Node name="AppDbContext.cs" selected="True" />
               </Node>
-              <Node name="Migrations" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20230726170414_PublisherAdded.cs" expanded="True" />
+              </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
@@ -27,8 +28,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.BookAPI PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.BookAPI PreferredExecutionTarget="/Applications/Firefox.app" />
 </Properties>
