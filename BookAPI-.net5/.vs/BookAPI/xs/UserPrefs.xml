@@ -1,12 +1,17 @@
 ﻿<Properties StartupConfiguration="{33444BB5-8D41-4D68-896E-7FED0B89B7FA}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/maria/-projects/BookAPI/BookAPI-.net5/Data/Services/BooksService.cs" relfile="Data/Services/BooksService.cs" line="22" column="3" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/AppDbContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Services/BooksService.cs">
     <Files>
-      <File FileName="Data/Models/Book.cs" Line="25" Column="1" />
-      <File FileName="Data/Models/Publisher.cs" Line="14" Column="18" />
-      <File FileName="Data/Models/Author.cs" Line="11" Column="1" />
-      <File FileName="Data/Models/Book_Author.cs" Line="8" Column="3" />
-      <File FileName="Data/AppDbContext.cs" Line="31" Column="47" />
+      <File FileName="Data/Models/ViewModels/BookVM.cs" Line="21" Column="33" />
+      <File FileName="Data/Services/BooksService.cs" Line="69" Column="28" />
+      <File FileName="Controllers/BooksController.cs" Line="34" Column="43" />
+      <File FileName="Data/Models/Book.cs" Line="17" Column="1" />
+      <File FileName="Data/AppDbInitializer.cs" Line="41" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,10 +19,11 @@
           <Node name="BookAPI">
             <Node name="BookAPI">
               <Node name="Data" expanded="True">
-                <Node name="Models" expanded="True" />
-                <Node name="AppDbContext.cs" selected="True" />
+                <Node name="Services" expanded="True">
+                  <Node name="BooksService.cs" selected="True" />
+                </Node>
               </Node>
-              <Node name="Migrations" expanded="True">
+              <Node name="Migrations">
                 <Node name="20230726170414_PublisherAdded.cs" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
@@ -27,10 +33,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.BookAPI PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
