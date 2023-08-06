@@ -7,3 +7,4 @@ part of which is available for free on youtube.
 
 Notes:
 - https://www.entityframeworktutorial.net/efcore/entity-framework-core-migration.aspx   (for translations from package manager to dotnet CLI)
+- https://database.guide/create-a-sql-server-database-with-azure-data-studio/
